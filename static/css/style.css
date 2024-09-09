@@ -1,0 +1,28 @@
+.carousel-item img{
+    max-height: 400px;
+    min-width: 100%;
+
+}
+
+.service-img{
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.aboutus{
+    border: none;
+    background-color: rgb(167, 173, 179);
+}
+ul.images {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+ul.images li {
+    display: inline;
+    width: 150px;
+    height: 150px;
+}
