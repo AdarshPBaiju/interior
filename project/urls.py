@@ -29,5 +29,6 @@ urlpatterns = [
     path('login/', admin_login, name='login'),
     path('logout/', signout, name='logout'),
 ]
-urlpatterns += static(settings.STATIC_URL, document_root = settings.STATICFILES_DIRS)
-urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
